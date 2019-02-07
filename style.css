@@ -1,0 +1,99 @@
+* { margin: 0; padding: 0; }
+
+@media screen and (max-width: 2000px) {
+ body {
+  font-family: 'Varela Round', sans-serif;
+}
+#navbar {
+  display:flex;
+  position:fixed;
+  flex-direction:row;
+  justify-content: flex-end;
+  right:0;
+  background-color:#fcd12a;
+  width:100%;
+}
+.nav-link {
+  margin:30px 100px;
+  color:green;
+  font-weight:500;
+  text-decoration:none;
+}
+#title {
+  font-size:2em;
+  padding:20px;
+}
+#tagline {
+  color:green;
+}
+#welcome-section {
+  background-color:#fcd12a;
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  height:100vh;
+  justify-content: center;
+  margin:0;
+  padding:0;
+}
+.project-tile {
+  color:green;
+  text-align:center;
+  padding:100px;
+}
+.project-image {
+  width:500px;
+  height:400px;
+  margin:30px auto;
+  text-align:center;
+}
+#project-row1 {
+  display:flex;
+  flex-direction:row;
+}
+#project-row2 {
+  display:flex;
+  flex-direction:row;
+}
+.project-image h3 a {
+  text-decoration:none;
+  color:green;
+}
+#contact {
+  background-color:#50BFE6;
+  height:300px;
+  padding:150px;
+}
+#contact-title h1 {
+  font-size:2em;
+}
+#contact-title {
+  display:flex;
+  flex-direction:column;
+  padding:500px auto;
+  text-align:center;
+  justify-content:center;
+}
+  #contact-items {
+    display:flex;
+   flex-direction:row;
+    justify-content:center;
+  }
+ .pro-link {
+   text-align:center;
+   background-color:#fcd12a;
+   border:1px solid #fcd12a;
+   border-radius:50%;
+   margin:50px;
+   width:150px;
+   padding:70px 0;
+   height:10px;
+  }  
+  .pro-link:hover {
+    background-color:orange;
+  }
+  .pro-link a {
+    text-decoration:none;
+    color:green;
+  } 
+}
